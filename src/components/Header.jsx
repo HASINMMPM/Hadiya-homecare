@@ -28,7 +28,6 @@ const Header = () => {
             behavior: "smooth",
           });
 
-          // Close mobile menu after navigation
           setIsMenuOpen(false);
         }
       }
@@ -96,9 +95,9 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center">
-          <button className="bg-[#4DB6AC] text-white px-6 py-2 rounded-full hover:bg-[#00897B] transition hidden md:block">
+          <a href="tel:8139055749" className="bg-[#4DB6AC] text-white px-6 py-2 rounded-full hover:bg-[#00897B] transition hidden md:block">
             Call Now
-          </button>
+          </a>
           <button
             className="md:hidden text-[#00897B] focus:outline-none"
             onClick={toggleMobileMenu}

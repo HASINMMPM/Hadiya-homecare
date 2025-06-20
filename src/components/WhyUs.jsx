@@ -13,8 +13,8 @@ const WhyUs = () => {
     <section className="py-16 ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <span className="text-[#4DB6AC] font-medium">WHY CHOOSE US</span>
-          <h2 className="text-3xl font-bold text-[#00897B] mt-2 mb-4">
+          <span className="text-[#4DB6AC] font-medium ">WHY CHOOSE US</span>
+          <h2 className="text-3xl font-bold text-[#00897B] mt-2 mb-4 font-subhead">
             What Makes Us Different
           </h2>
           <p className="max-w-2xl mx-auto text-lg">

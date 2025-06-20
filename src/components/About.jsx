@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
-            <h2 className="text-3xl font-bold text-[#00897B] mb-6">
+            <h2 className="text-3xl font-bold text-[#00897B] mb-6 font-subhead">
               Our Mission
             </h2>
             <p className="text-lg mb-6">
@@ -28,9 +28,9 @@ const About = () => {
               <span className="text-[#4DB6AC] italic">
                 "We're just one call away."
               </span>
-              <button className="bg-[#4DB6AC] text-white px-5 md:px-8 py-3 rounded-full hover:bg-[#00897B] transition mr-6">
+              <a href="tel:8139055749" className="bg-[#4DB6AC] text-white px-5 md:px-8 py-3 rounded-full hover:bg-[#00897B] transition md:mr-6">
                 Call Now
-              </button>
+              </a>
             </div>
           </div>
           <div className="lg:w-1/2 relative">
