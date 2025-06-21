@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHeart } from "react-icons/fa";
+import aboutImage from "../assets/caring-lady.webp"
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
           </div>
           <div className="lg:w-1/2 relative">
             <img
-              src="https://plus.unsplash.com/premium_photo-1661416502553-6e40f9440f6a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={aboutImage}
               alt="Caregiver helping senior woman"
               className="rounded-xl shadow-lg w-full"
             />
